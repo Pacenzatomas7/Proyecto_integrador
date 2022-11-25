@@ -4,8 +4,34 @@
     }
 
     .navbar-list {
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: var(--background);
+        border: 2px solid var(--secondary);
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
         gap: 20px;
-        font-size: 13px;
+        z-index: 2;
+        display:none;
+    }
+
+    .navbar-list {
+        font-size: 18px;
+    }
+
+    .menu-label {
+        display: flex;
+        cursor: pointer;
+    }
+
+    #menu-toggle:checked + .navbar-list {
+        display: flex;
     }
 
     .card {
@@ -38,38 +64,7 @@
 
 }
 
-@media (max-width:850px) {
-    .navbar-list {
-        position: absolute;
-        top: 65px;
-        left: 5%;
-        right: 5%;
-        width: 90%;
-        flex-direction: column;
-        background-color: var(--background);
-        border: 2px solid var(--secondary);
-        border-top: 0px;
-        border-radius: 0px 0px 15px 15px;
-        align-items: flex-start;
-        padding: 45px 30px;
-        gap: 20px;
-        z-index: 2;
-        display:none;
-    }
 
-    .navbar-list {
-        font-size: 18px;
-    }
-
-    .menu-label {
-        display: flex;
-        cursor: pointer;
-    }
-
-    #menu-toggle:checked + .navbar-list {
-        display: flex;
-    }
-}
 
 @media (max-width:600px) {
     .wsp-logo {
