@@ -90,6 +90,10 @@ header {
 }
 
 
+#menu-toggle, .menu-label {
+    display: none;
+}
+
 /* FIN HEADER  */
 
 main {
