@@ -31,9 +31,6 @@
         font-size: 15px;
     }
 
-    .footer-conteiner {
-        /* justify-content:center; */
-    } 
 
     .footer-texto, .footer-logo {
         display: none;
