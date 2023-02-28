@@ -118,6 +118,7 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 350px;
+    width: 100%;
 }
 
 
